@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/hello_faiza"
+        android:textColor="#E67E30"
+        android:textSize="27sp" />
+    
+    <EditText 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/editText"
+        android:paddingTop="50dp"
+        android:inputType="textShortMessage"
+        />
+    
+    <Button 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:text="@string/textButton"/>
+
+</RelativeLayout>
